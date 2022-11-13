@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+}
+
+.outer{
+    background:  #161748e2 ;
+    padding: 50px;
+    width: 100%;
+    height: 600px;
+}
+
+.container{
+    background: #32cac5;
+    border-radius: 10px;
+    width: 700px;
+    height: 440px;
+    padding: 20px;
+    margin-left: 346px;
+    margin-top: 65px;
+}
+
+.leftpart{
+    height: 420px;
+    width: 250px;
+    background: #d1c38fc3;
+    border: solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+    
+}
+
+.user{
+    height: 100px;
+    width: 1000px;
+    margin-left: 75px;
+    padding: 20px;
+    float: left;
+}
+.home{
+    margin-top: 130px;
+    margin-left: 30px;
+    width: 400px;
+    float: left;
+}
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #373e98;
+    cursor: pointer;
+}
+#heading{
+    color: white;
+    cursor: pointer;
+}
+.top_bar{
+    margin-left: 300px;
+    float: left;
+
+}
+.readyplayer{
+    font-family: 'Courier New', Courier, monospace;
+    color: #103338;
+}
+.sub{
+  margin-top: 30px;
+  font-size: 9px;
+  font-family: cursive;
+  color: #6029ce;
+}
+
+.search{
+  margin-top: 10px;
+  margin-left: 250px;
+  border-radius: 20px;
+  height: 25px;
+  width: 147px;
+  background:rgb(255, 255, 255,.6);
+}
+
+.search_bar{
+  margin-left: 9px;
+  margin-top: 5px;
+  width: 100%;
+}
+.search_bar input{
+  background: transparent;
+  border: 0px;
+  outline: none;
+  padding: .5px;
+}
+::placeholder{
+  color: #736edb;
+}
+.search_img{
+  margin-top: -5px;
+  margin-left:110px ;
+  height: 20px;
+}
+.alanwalker{
+  margin-top: 100px;
+  height: 200px;
+}
+.player{
+  margin-top: 70px;
+  height: 374px;
+  width: 397px;
+  background: #dddfd4;
+  margin-left: 300px;
+  border-radius: 10px;
+}
+.play{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 10px;
+  margin-left: 10px;
+  color: #169eb3;
+}
+.alanwalker{
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top:60px;
+}
+.song{
+  margin-top: 32px;
+  margin-left: 21px; 
+}
+
+
+.music{
+  width: 354px;
+  height: 101px;
+  margin-top: 244px;
+  margin-left: 20px;
+  box-shadow: 0 0 20px rgb(red,0,0,0.4);
+  background: #f1f3f4;
+  color: #555;
+  border-radius: 5px;
+}
+.music p{
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.music h1{
+  margin-top: 25px;
+  margin-left: 5px;
+  font-size: 21px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#icon {
+  margin-top: 523px;
+  margin-left: 745px;
+  width: 35px;
+  cursor: pointer;
+}
+#mysong{
+  margin-top: 514px;
+    width: 352px;
+    margin-left: 737px;
+
+}

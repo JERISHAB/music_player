@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+   
+</head>
+<body>
+    <div class="outer">
+        <div class="container">
+            <div class="leftpart"> 
+                <div class="user">
+                   <div class="user_img"><img  src="user_image.png"   height="50px"></div> 
+                   <br><br><br>
+                   <div class="user_name1"> <h5 class="user_name">Alexander</h5></div>
+                </div>
+                <div class="home">
+                    <h3 id="heading">Home</h3>
+                    <br><br>
+                    <h3 class="heading">Radio</h3>
+                    <br><br>
+                    <h3 class="heading">Podcast</h5>
+                    <br><br>
+                    <h3 class="heading">Downoads</h5>
+                    <br><br>
+                    <h3 class="heading">Library</h5>
+                    <br><br>
+                    <h3 class="heading">Go Premium</h3>
+                    <br><br>
+                    <h3 class="heading">Language</h3>
+                    <br><br>
+                    <h3 class="heading">Settings</h3>
+                </div>
+            </div>
+            <div class="top_bar">
+                <div class="readyplayer"><h1>Ready Player</h1></div>
+                 <div class="sub"><h3>Ready to hear</h3></div>
+                 <div class="search">
+                        <form action="https://www.google.com/search" method="get" class="search_bar">
+                            <input type="text" placeholder=" search the song" name="q">
+                            <button type="submit"><img class="search_img" src="search-bar-01-16.png"></button>
+                        </form>
+                 </div>
+            </div>
+            <div class="player">
+                <p class="play">Now playing</p>
+                <h2 class="song">Lily</h2>
+                <br>
+                <h4 class="song">Alan Walker</h4>
+                <img class="alanwalker" src="poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg">
+                
+                    <div class="music">
+                        <p>Artist: Emelie Hollow</p>
+                        <h1>Lily</h1>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <audio controls id="mysong">
+        <source src="lily.mp3" type="audio/mp3">
+    </audio>
+    <div class="track">
+        <img src="play.png" id="icon">
+    </div>
+
+     <script>
+            var mysong = document.getElementById("mysong");
+            var icon = document.getElementById("icon");
+
+            icon.onclick = function()
+            {
+                if(mysong.paused)
+                {
+                    mysong.play();
+                    icon.src  = "pause.png";
+                }
+                else
+                {
+                    mysong.pause();
+                    icon.src = "play.png";
+                }
+            }
+
+    </script>
+
+
+
+</body>
+</html>
